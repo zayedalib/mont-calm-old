@@ -1,0 +1,7 @@
+.navItem {
+  @apply text-gray-400 w-20 hover:text-green-700 cursor-pointer font-medium tracking-wide text-sm flex items-start justify-center;
+}
+
+.selectedNavItem {
+  @apply text-gray-700 border-b-2 border-green-700 bg-gradient-to-b from-white to-green-100;
+}

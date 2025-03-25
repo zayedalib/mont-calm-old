@@ -1,0 +1,7 @@
+.tabItem {
+  @apply text-gray-400 hover:text-green-700 cursor-pointer w-16 h-full flex items-center justify-center;
+}
+
+.tabItemActive {
+  @apply bg-gradient-to-t from-white to-green-100 border-t-4 border-green-700 text-green-700;
+}
